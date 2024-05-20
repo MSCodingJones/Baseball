@@ -66,17 +66,17 @@ INSERT INTO pitching (
 )
 VALUES (
     2,
-
-
+    0
+    0
     1526,
     1468,
-
-
+    0
+    0
 );
 
 UPDATE player
 SET
 yr_began = 1948
-yr_ended =
+yr_ended = 1973
 imgURL = https://a1.espncdn.com/combiner/i?img=%2Fphoto%2F2017%2F0529%2Fr213742_1000x563_16%2D9.jpg&w=570&format=jpg
 WHERE player_id = 1;

@@ -2,7 +2,7 @@ const express = require('express')
 const server = express()
 const port = process.env.port || 3005
 
-const tables = ['team']
+const tables = ['team', 'player', 'pitching', 'batting']
 
 router.get('/api', (req, res)=> {
     res.json({
@@ -24,6 +24,7 @@ router.get('*', (req, res)=> {
         res.send('<h1>404 Error. This page is outta here!</h1>')
     }
 })
+
 
 
 module.exports = router

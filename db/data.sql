@@ -31,7 +31,7 @@ VALUES (
     'willie',
     '1931-05-06',
     'CF',
-    'FB',
+    '1B',
     'right',
     'right'
 );
@@ -66,11 +66,11 @@ INSERT INTO pitching (
 )
 VALUES (
     2,
-    0
-    0
+    0,
+    0,
     1526,
     1468,
-    0
+    0,
     0
 );
 

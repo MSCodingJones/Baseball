@@ -71,9 +71,10 @@ const daoCommon = {
                 (error, dbres)=> {
                     if (!error) {
                         res.json({
-                            "Last_id": dbres.insertId,
-                            
+                            "Last_id": dbres.insertId,                       
                         })
+                    } else {
+                        console.log('DAO ERROR: ', error)
                     }
                 }
             )

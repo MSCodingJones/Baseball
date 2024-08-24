@@ -1,5 +1,5 @@
 const express = require('express')
-const server = express()
+const router = express.Router()
 const port = process.env.port || 3005
 
 const tables = ['team', 'player', 'pitching', 'batting']
